@@ -1,10 +1,10 @@
+%global debug_package %{nil}
 Name: parallel-hashmap
 Version: 1.3.12
 Release: 1
 Summary: Header-only hashmap and btree containers
 URL: https://greg7mdp.github.io/parallel-hashmap
 License: Apache-2.0
-BuildArch: noarch
 BuildRequires: cmake make gcc-c++
 Source: https://github.com/greg7mdp/parallel-hashmap/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
